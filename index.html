@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Regine Jones - AI/ML Engineer Portfolio showcasing cutting-edge projects in deep learning and artificial intelligence">
+    <meta name="author" content="Regine Jones">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Regine Jones - AI/ML Engineer">
+    <meta property="og:description" content="Portfolio showcasing AI/ML engineering projects and skills">
+    <meta property="og:image" content="assets/og-image.png">
+    
+    <title>Regine Jones - AI/ML Engineer Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-glow"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="#home" class="logo">RJ</a>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="greeting">Hello, I'm</p>
+                    <h1 class="name">Regine Jones</h1>
+                    <div class="typing-container">
+                        <span class="typing-text"></span>
+                        <span class="cursor">|</span>
+                    </div>
+                    <p class="tagline">Building intelligent systems that learn, adapt, and transform how we interact with technology</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title" data-scroll="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-image" data-scroll="fade-right">
+                    <div class="image-placeholder">
+                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="100" r="90" fill="var(--accent-primary)" opacity="0.1"/>
+                            <circle cx="100" cy="80" r="30" fill="var(--accent-primary)" opacity="0.3"/>
+                            <path d="M 60 130 Q 100 160 140 130" stroke="var(--accent-primary)" stroke-width="3" fill="none" opacity="0.3"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="about-text" data-scroll="fade-left">
+                    <p class="lead">I'm an AI/ML Engineer passionate about creating intelligent systems that push the boundaries of what's possible with machine learning and deep learning.</p>
+                    <p>With expertise in neural networks, computer vision, and natural language processing, I transform complex problems into elegant solutions. My work focuses on developing scalable AI systems that make a real-world impact.</p>
+                    <p>When I'm not training models or optimizing algorithms, you'll find me exploring the latest research papers, contributing to open-source projects, or mentoring aspiring ML engineers.</p>
+                    
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3>Languages</h3>
+                            <div class="skill-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">R</span>
+                                <span class="tag">SQL</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Frameworks</h3>
+                            <div class="skill-tags">
+                                <span class="tag">TensorFlow</span>
+                                <span class="tag">PyTorch</span>
+                                <span class="tag">Scikit-learn</span>
+                                <span class="tag">Keras</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Tools & Platforms</h3>
+                            <div class="skill-tags">
+                                <span class="tag">AWS</span>
+                                <span class="tag">Docker</span>
+                                <span class="tag">Git</span>
+                                <span class="tag">Jupyter</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="assets/resume.pdf" class="btn btn-primary" download>Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title" data-scroll="fade-up">Featured Projects</h2>
+            <p class="section-subtitle" data-scroll="fade-up">Innovative solutions at the intersection of AI and real-world problems</p>
+            
+            <div class="project-filters" data-scroll="fade-up">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                <button class="filter-btn" data-filter="cv">Computer Vision</button>
+                <button class="filter-btn" data-filter="nlp">NLP</button>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="cv" data-scroll="fade-up">
+                    <div class="project-image">
+                        <div class="image-placeholder gradient-1"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Computer Vision</span>
+                            <span class="tag">PyTorch</span>
+                        </div>
+                        <h3>Real-Time Object Detection System</h3>
+                        <p>Developed a high-performance object detection model achieving 95% accuracy with 60 FPS processing speed for autonomous vehicle applications.</p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">95%</span>
+                                <span class="metric-label">Accuracy</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">60 FPS</span>
+                                <span class="metric-label">Speed</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project →</a>
+                            <a href="#" class="project-link">GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card" data-category="nlp" data-scroll="fade-up">
+                    <div class="project-image">
+                        <div class="image-placeholder gradient-2"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">NLP</span>
+                            <span class="tag">Transformers</span>
+                        </div>
+                        <h3>Sentiment Analysis Engine</h3>
+                        <p>Built a transformer-based sentiment analysis system processing 10K+ reviews per second with 92% accuracy across multiple languages.</p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">92%</span>
+                                <span class="metric-label">Accuracy</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">10K+</span>
+                                <span class="metric-label">Reviews/sec</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project →</a>
+                            <a href="#" class="project-link">GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card" data-category="ml" data-scroll="fade-up">
+                    <div class="project-image">
+                        <div class="image-placeholder gradient-3"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">ML</span>
+                            <span class="tag">Time Series</span>
+                        </div>
+                        <h3>Predictive Maintenance AI</h3>
+                        <p>Created a predictive maintenance system reducing equipment downtime by 40% through advanced time series forecasting and anomaly detection.</p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">40%</span>
+                                <span class="metric-label">Downtime ↓</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">$2M</span>
+                                <span class="metric-label">Saved/Year</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project →</a>
+                            <a href="#" class="project-link">GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="section-title" data-scroll="fade-up">Experience</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item" data-scroll="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023 - Present</span>
+                        <h3>Senior AI/ML Engineer</h3>
+                        <h4>Tech Company</h4>
+                        <p>Leading ML infrastructure development and deploying production-ready models serving millions of users. Mentoring junior engineers and establishing best practices for ML ops.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-scroll="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2021 - 2023</span>
+                        <h3>Machine Learning Engineer</h3>
+                        <h4>AI Startup</h4>
+                        <p>Developed computer vision models for retail analytics, improving accuracy by 30% and reducing inference time by 50% through model optimization.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-scroll="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2019 - 2021</span>
+                        <h3>Data Scientist</h3>
+                        <h4>Consulting Firm</h4>
+                        <p>Built predictive models for various clients across industries, delivering actionable insights that drove business decisions and improved operational efficiency.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="achievements" data-scroll="fade-up">
+                <h3>Publications & Awards</h3>
+                <div class="achievement-grid">
+                    <div class="achievement-card">
+                        <div class="achievement-icon">📄</div>
+                        <h4>Research Paper</h4>
+                        <p>Published in NeurIPS 2023 on novel attention mechanisms</p>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon">🏆</div>
+                        <h4>Best AI Project</h4>
+                        <p>Won hackathon for innovative healthcare ML solution</p>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon">🎓</div>
+                        <h4>Speaker</h4>
+                        <p>Presented at AI Summit 2024 on MLOps best practices</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title" data-scroll="fade-up">Get In Touch</h2>
+            <p class="section-subtitle" data-scroll="fade-up">Let's collaborate on something amazing</p>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-scroll="fade-right">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                    
+                    <div class="contact-methods">
+                        <a href="mailto:regine.jones@email.com" class="contact-method">
+                            <span class="contact-icon">✉️</span>
+                            <span>regine.jones@email.com</span>
+                        </a>
+                        <a href="https://linkedin.com/in/reginejones" class="contact-method" target="_blank">
+                            <span class="contact-icon">💼</span>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/reginejones" class="contact-method" target="_blank">
+                            <span class="contact-icon">🐙</span>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://twitter.com/reginejones" class="contact-method" target="_blank">
+                            <span class="contact-icon">🐦</span>
+                            <span>Twitter</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" data-scroll="fade-left" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder=" ">
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder=" ">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Regine Jones. Crafted with passion and code.</p>
+            <div class="footer-links">
+                <a href="#home">Back to Top ↑</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
