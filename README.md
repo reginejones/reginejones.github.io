@@ -300,9 +300,3 @@ If you encounter any issues or have questions:
 1. Check the [GitHub Issues](https://github.com/reginejones/reginejones.github.io/issues)
 2. Review the troubleshooting section above
 3. Open a new issue with details about your problem
-
----
-
-**Built with ❤️ by Regine Jones**
-
-Ready to showcase your AI/ML journey to the world! 🚀
