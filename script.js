@@ -124,10 +124,8 @@ function initTypingEffect() {
     if (!typingElement) return;
 
     const phrases = [
-        'AI/ML Engineer',
-        'Deep Learning Researcher',
-        'Full Stack Developer',
-        'Open Source Contributor',
+        'Security Engineer',
+        'Systems Administrator',
         'Problem Solver'
     ];
 
@@ -498,4 +496,4 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
 }
 
 console.log('%c Welcome to my portfolio! ', 'background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%); color: white; padding: 10px 20px; border-radius: 5px; font-size: 14px;');
-console.log('%c Built with passion by Regine Jones ', 'color: #8b5cf6; font-size: 12px;');
+console.log('%c Built with passion by Sameeksha Mehrotra ', 'color: #8b5cf6; font-size: 12px;');
